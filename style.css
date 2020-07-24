@@ -1,0 +1,32 @@
+body{
+    background-color: #00ffbf;
+    text-align: center;
+}
+.links{
+    display: flex;
+    margin: auto;
+    /* align-items: center; */
+
+}
+.nope{
+ height: 100px;
+ width: 100px;   
+ margin-left: auto;
+ margin-right: auto;}
+.shown{
+    opacity: 0.0;
+}
+.me{
+    height: 300px;
+}
+.shown:hover{
+
+    opacity: 1.0;
+    color: slateblue;
+    
+}
+@media(MAX-HEIGHT: 375 ){
+    .shown{
+        font-size: 20px;
+    }
+}
