@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color: #00ffbf;
     background: url(/double-bubble-dark.png) repeate 0 0;
@@ -12,6 +15,26 @@ body{
 p{
     font-family: 'Playfair Display', serif;
 }
+.tooltip {
+    position: inherit;
+    display: inline-block ;
+    font-family: 'Playfair Display', serif;
+    /* border-bottom: 1px dotted black;If you want dots under the hoverable text */
+  }
+  .tooltip .tooltiptext {
+    width: 120px;
+    bottom: 100%;
+    left: 0%;
+    margin-left: 0px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+  .tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    opacity: 1;
+  }
 .nope{
  height: 100px;
  width: 100px;   
