@@ -1,9 +1,10 @@
 body{
     background-color: #00ffbf;
+    background: url(/double-bubble-dark.png) repeate 0 0;
     text-align: center;
 }
 .links{
-    display: flex;
+    display: run-in;
     margin: auto;
     /* align-items: center; */
 
